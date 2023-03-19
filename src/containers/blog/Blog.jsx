@@ -1,49 +1,39 @@
 import React from 'react'
 import './blog.css'
-import { blog01, blog02, blog03, blog04, blog05 } from './imports'
-import { Article } from '../../components'
-
 const Blog = () => {
   return (
-    <div className='gpt3__blog section__padding'>
-      <div className='gpt3__blog-heading'>
-        <h1 className='gradient__text'>
-          A lot is happening, We are blogging about it.
-        </h1>
+    <div id='blog' className="carousel carousel-center rounded-box">
+      <div className='carousel-item'>
+      <div className="card w-96 bg-purple-900 text-white shadow-xl">
+      <div className="card-body">
+      <h2 className="card-title text-center">Monthly</h2>
+      <p className='text-center'>$10/Monthly</p>
+      <p className='text-center'>Lorem Ipsum</p>
+      <p className='text-center'>Sit dolor</p>
+     <p className='text-center'>Amet solot</p>
+     <div className="card-actions justify-end">
+      <button className="btn btn-primary">Buy Now</button>
       </div>
-      <div className='gpt3__blog-container'>
-        <div className='gpt3__blog-container_groupA'>
-          <Article
-            imgURL={blog01}
-            date='Sep 26, 2021'
-            title='GPT-3 and Open  AI is the future. Let us exlore how it is?'
-          />
-        </div>
-        <div className='gpt3__blog-container_groupB'>
-          <Article
-            imgURL={blog02}
-            date='Sep 26, 2021'
-            title='GPT-3 and Open  AI is the future. Let us exlore how it is?'
-          />
-          <Article
-            imgURL={blog03}
-            date='Sep 26, 2021'
-            title='GPT-3 and Open  AI is the future. Let us exlore how it is?'
-          />
-          <Article
-            imgURL={blog04}
-            date='Sep 26, 2021'
-            title='GPT-3 and Open  AI is the future. Let us exlore how it is?'
-          />
-          <Article
-            imgURL={blog05}
-            date='Sep 26, 2021'
-            title='GPT-3 and Open  AI is the future. Let us exlore how it is?'
-          />
-        </div>
       </div>
     </div>
-  )
+    <div className='carousel-item'>
+      <div className="card w-96 bg-purple-900 text-white shadow-xl">
+      <div className="card-body">
+      <h2 className="card-title text-center">Lifetime</h2>
+      <p className='text-center'>$250</p>
+      <p className='text-center'>Lorem Ipsum</p>
+      <p className='text-center'>Sit dolor</p>
+     <p className='text-center'>Amet solot</p>
+     <div className="card-actions justify-end">
+      <button className="btn btn-primary">Buy Now</button>
+    </div>
+    
+  </div>
+</div>
+      </div>
+  </div>
+  </div>
+)
 }
 
 export default Blog

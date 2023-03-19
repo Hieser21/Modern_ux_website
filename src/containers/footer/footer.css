@@ -61,8 +61,8 @@
 }
 
 .gpt3__footer-links_logo img {
-  width: 118px;
-  height: 30px;
+  width: 64px;
+  height: 64px;
   margin-bottom: 1rem;
 }
 
@@ -76,8 +76,14 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  text-decoration: none;
 }
-
+.gpt3__footer-links_div a {
+  text-decoration: none;
+}
+.gpt3__footer-links_div a:hover {
+  color: white;
+}
 .gpt3__footer-links_div h4 {
   font-family: cursive;
   font-size: 14px;

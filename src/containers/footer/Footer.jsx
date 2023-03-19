@@ -1,17 +1,17 @@
 import React from 'react'
 import './footer.css'
-import gpt3Logo from '../../assets/logo.svg'
+import gpt3Logo from '../../assets/aspect.png'
 
 const Footer = () => {
   return (
     <div className='gpt3__footer section__padding'>
       <div className='gpt3__footer-heading'>
         <h1 className='gradient__text'>
-          Do you want to step in to the future before others
+          Do you want to step in to the future before others?
         </h1>
       </div>
       <div className='gpt3__footer-btn'>
-        <p>Request Early Access</p>
+        <p>Pre-order Instep</p>
       </div>
 
       <div className='gpt3__footer-links'>
@@ -34,10 +34,8 @@ const Footer = () => {
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Get in touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p>085-132567</p>
-          <p>info@payme.net</p>
-          <p>+998 (99) 923-12-97</p>
+          <a href='https://discord.gg/aspect-systems-930476025933070356'><p>https://discord.gg/aspect-systems-930476025933070356</p></a>
+         <a href='mailto:team@aspectsystems.xyz'><p>team@aspectsystems.xyz</p></a>
         </div>
       </div>
       <div className='gpt3__footer-copyright'>

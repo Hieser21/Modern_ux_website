@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 2rem 6rem;
 }
 
@@ -18,8 +17,8 @@
 }
 
 .gpt3__navbar-links_logo img {
-  width: 62.56px;
-  height: 16.02px;
+  width: 48.56px;
+  height: 48.02px;
 }
 
 .gpt3__navbar-links_container {
@@ -50,7 +49,7 @@
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
   color: #fff;
-  background: #ff4820;
+  background: #6844CE;
   font-family: var(--font-family);
   border-radius: 5px;
   font-weight: 500;
