@@ -33,7 +33,7 @@
 }
 
 .gpt3__possibility-content h4:last-child {
-  color: #ff8a71;
+  color: hsla(256, 50%, 54%, 1);
 }
 
 .gpt3__possibility-content h1 {

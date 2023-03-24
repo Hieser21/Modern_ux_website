@@ -1,8 +1,8 @@
 import React from 'react'
 import './blog.css'
-const Blog = () => {
+const Pricing = () => {
   return (
-    <div id='blog' className="carousel carousel-center rounded-box">
+    <div id='pricing' className="carousel carousel-center rounded-box">
       <div className='carousel-item'>
       <div className="card w-96 bg-purple-900 text-white shadow-xl">
       <div className="card-body">
@@ -36,4 +36,4 @@ const Blog = () => {
 )
 }
 
-export default Blog
+export default Pricing

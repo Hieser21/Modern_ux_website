@@ -1,17 +1,22 @@
 import React, { useState } from 'react'
 import './navbar.css'
-import logo from '../../assets/aspect.png'
+import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
+import logo from '../../assets/asset.svg'
+import '../../../node_modules/@flaticon/flaticon-uicons/css/all/all.css'
 
 const Menu = () => (
   <>
     <p>
-      <a href='#home'>Home</a>
+      <a href='#home'><p><i className='fi fi-sr-home'></i>Home</p></a>
     </p>
     <p>
-      <a href='#whgpt3'>About us</a>
+      <a href='#about'><p><i className="fi fi-sr-users"></i>About us</p></a>
     </p>
     <p>
-      <a href='#possibility'>Services</a>
+      <a href='#services'><p><i className="fi fi-sr-box"></i>Services</p></a>
+    </p>
+    <p>
+      <a href="#pricing"><p><i className='fi fi-sr-credit-card'></i>Pricing & Plans</p></a>
     </p>
   </>
 )

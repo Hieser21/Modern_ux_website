@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
 .gpt3__navbar {
   display: flex;
   justify-content: space-between;
@@ -5,11 +9,23 @@
   padding: 2rem 6rem;
 }
 
+.gpt3__navbar i {
+  padding: 8px;
+  padding-top: 12px;
+  font-size: 20px;
+}
+.gpt3__navbar p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
 .gpt3__navbar-links {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
 }
 
 .gpt3__navbar-links_logo {
@@ -17,13 +33,14 @@
 }
 
 .gpt3__navbar-links_logo img {
-  width: 48.56px;
-  height: 48.02px;
+  width: 50.56px;
+  height: 50.02px;
 }
 
 .gpt3__navbar-links_container {
   display: flex;
   font-display: row;
+  padding-left: -10% !important;
 }
 
 .gpt3__navbar-sign {
@@ -35,7 +52,7 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-  color: #fff;
+  color: #0d1318;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
@@ -48,7 +65,7 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
-  color: #fff;
+  color: #0d1318;
   background: #6844CE;
   font-family: var(--font-family);
   border-radius: 5px;
@@ -113,6 +130,7 @@
 @media screen and (max-width: 550px) {
   .gpt3__navbar {
     padding: 2rem;
+    padding-right: 0px;
   }
 
   .gpt3__navbar-sign {

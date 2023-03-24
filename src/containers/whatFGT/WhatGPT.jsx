@@ -2,9 +2,9 @@ import React from 'react'
 import { Feature } from '../../components'
 import './whatjpt.css'
 
-const WhatGPT = () => {
+const About = () => {
   return (
-    <div className='gpt3__whatgpt3 section__margin' id='whgpt3'>
+    <div className='gpt3__whatgpt3 section__margin' id='about'>
       <div className='gpt3__whatgpt3-feature'>
         <Feature
           title='What is GPT-3'
@@ -35,4 +35,4 @@ const WhatGPT = () => {
   )
 }
 
-export default WhatGPT
+export default About

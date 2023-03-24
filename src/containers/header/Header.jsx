@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
-import people from '../../assets/people.png'
-import ai from '../../assets/aspect_full.png'
+import ai from '../../assets/banner.svg'
 const Header = () => {
   return (
     <div className='gpt3__header section__padding' id='home'>
@@ -9,7 +8,7 @@ const Header = () => {
         <h1 className='gradient__text'>
          Providing Innovative Security
         </h1>
-        <p>
+        <p >
         Aspect was created mainly to provide innovative cyber security solutions. We create distinctive protection for our customers using our industry-leading security intelligence. To combat constantly growing exploits, our service offers a variety of exclusive anti-exploit solutions and services.
         </p>
         <div className='gpt3__header-content__input'>

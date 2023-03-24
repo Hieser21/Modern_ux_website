@@ -2,10 +2,10 @@ import './App.css'
 
 import {
   Footer,
-  Blog,
+  Pricing,
   Possibility,
   Features,
-  WhatGPT,
+  About,
   Header,
 } from './containers'
 import { CTA, Brand, Navbar } from './components'
@@ -17,12 +17,10 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Brand />
-      <WhatGPT />
       <Features />
       <Possibility />
       <CTA />
-      <Blog />
+      <Pricing />
       <Footer />
     </div>
   )
