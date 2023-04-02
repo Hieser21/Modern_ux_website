@@ -8,7 +8,7 @@ import {
   About,
   Header,
 } from './containers'
-import { CTA, Brand, Navbar } from './components'
+import { CTA, Navbar } from './components'
 
 function App() {
   return (
