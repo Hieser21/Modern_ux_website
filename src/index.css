@@ -2,10 +2,10 @@
 :root {
   --font-family: 'Poppins', sans-serif;
 
-  --gradient-text: linear-gradient(90deg, hsla(256, 58%, 54%, 1) 0%, hsla(256, 58%, 85%, 1) 100%);
+  --gradient-text: linear-gradient(90deg, #6a46ce 0%, hsla(256, 58%, 85%, 1) 100%);
   --gradient-bar: linear-gradient(90deg, hsla(256, 58%, 54%, 1) 0%, hsla(256, 58%, 85%, 1) 100%);
 
-  --color-bg: #cecaf2;
+  --color-bg: #fff;
   --color-footer: #ffffff;
   --color-blog: #ffffff;
   --color-text: #0d1318;

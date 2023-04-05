@@ -11,7 +11,7 @@ const Footer = () => {
           Do you want to step in to the future before others?
         </h1>
       </div>
-      <button className='gpt3__footer-btn'>Pre-order Instep</button>
+      <button className='gpt3__footer-btn btn-outline btn-primary'>Pre-order Instep</button>
 
       <div className='gpt3__footer-links'>
         <div className='gpt3__footer-links_logo'>

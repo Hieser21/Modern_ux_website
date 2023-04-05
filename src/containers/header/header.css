@@ -96,11 +96,10 @@
 }
 
 .gpt3__header-image img {
-  width: 75%;
-  height: 75%;
+  width: 80%;
+  height: auto;
   margin-left: 100px;
-  margin-bottom: 100px;
-  filter: hue-rotate(45deg);
+  align-self: center;
 }
 
 @media screen and (max-width: 1050px) {

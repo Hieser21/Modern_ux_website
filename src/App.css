@@ -22,7 +22,7 @@ a {
 }
 
 .gradient__bg {
-  background: #cecaf2;
+  background: #fff;
 }
 
 .gradient__text {
@@ -31,7 +31,12 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.gradient__text2 {
+  background: linear-gradient(40deg, #6846ce, #302552);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .section__padding {
   padding: 4rem 6rem;
 }

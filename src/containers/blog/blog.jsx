@@ -17,7 +17,7 @@ const Pricing = () => {
       </div>
     </div>
     <div className='carousel-item'>
-      <div className="card w-96 bg-purple-900 text-white shadow-xl">
+      <div className="card w-96 text-white shadow-xl">
       <div className="card-body">
       <h2 className="card-title text-center">Lifetime</h2>
       <p className='text-center'>$250</p>

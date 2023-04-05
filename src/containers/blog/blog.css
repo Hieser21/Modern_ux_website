@@ -2,6 +2,9 @@
 @tailwind utilities;
 @tailwind base;
 
+.card {
+  background: linear-gradient(40deg, hsla(256, 58%, 54%, 1) 0%, #302552 100%)
+}
 .rounded-lg {
   border-radius: 1rem !important;
 }

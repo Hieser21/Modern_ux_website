@@ -13,7 +13,13 @@ const Menu = () => (
       <a href='#about'><p><i className="fi fi-sr-users"></i>About us</p></a>
     </p>
     <p>
-      <a href='#services'><p><i className="fi fi-sr-box"></i>Services</p></a>
+    <p><i className="fi fi-sr-box"></i><div className="dropdown dropdown-hover">
+  <label tabIndex={0} className="m-1">Services</label>
+  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+    <li><a href='#instep'>Instep</a></li>
+    <li><a href='#noxia'>Noxia</a></li>
+  </ul>
+</div></p>
     </p>
     <p>
       <a href="#pricing"><p><i className='fi fi-sr-credit-card'></i>Pricing & Plans</p></a>
