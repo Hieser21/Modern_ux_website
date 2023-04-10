@@ -21,6 +21,9 @@ const InstepFeatures = () => {
   <div className="grid text-3xl text-accent-content place-content-center text-center">Anti Dex
   <p>Stops hackers from decompiling your game files</p>
   </div>
+  <div className='grid place-content-center'>
+  <img src='https://cdn.discordapp.com/attachments/1041025455144308816/1093462813768425492/ezgif-3-ca8a8dabe7.gif' height={338} width={600} alt='Aspect trailer' style={{borderRadius: 20}} />
+  </div>
       </div>
     </div>
   )

@@ -80,7 +80,7 @@
   font-weight: 500px;
   font-size: 16px;
   line-height: 30px;
-  color: var(--color-subtext);
+  color: white;
   cursor: pointer;
 }
 
@@ -89,6 +89,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 2rem;
+  color: white;
 }
 
 /* Customizing feature component as per needs */

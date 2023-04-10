@@ -56,8 +56,8 @@ const Navbar = () => {
           />
         )}{' '}
         {toggleMenu && (
-          <div className='gpt3__navbar-menu_container scale-up-center'>
-            <div className='gpt3__navbar-menu_container'></div>
+          <div className='gpt3__navbar-menu_container scale-up-center text-black'>
+            <div className='gpt3__navbar-menu_container text-black'></div>
             <Menu />
             <div className='gpt3__navbar-menu_container-links-sign'>
             </div>
