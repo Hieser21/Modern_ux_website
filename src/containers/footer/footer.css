@@ -98,7 +98,7 @@
   text-decoration: none;
 }
 .gpt3__footer-links_div h4 {
-  font-family: cursive;
+  font-family: var(--font-family);
   font-size: 14px;
   line-height: 16px;
   margin-bottom: 1rem;

@@ -22,7 +22,7 @@ const Menu = () => (
 </div></p>
     </p>
     <p>
-      <a href="#pricing"><p><i className='fi fi-sr-credit-card'></i>Pricing & Plans</p></a>
+      <a href="#pricing"><p><i className='fi fi-sr-credit-card'></i>Pricing</p></a>
     </p>
     
   </>
