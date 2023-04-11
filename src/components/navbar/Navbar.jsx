@@ -24,6 +24,7 @@ const Menu = () => (
     <p>
       <a href="#pricing"><p><i className='fi fi-sr-credit-card'></i>Pricing & Plans</p></a>
     </p>
+    
   </>
 )
 
@@ -40,6 +41,7 @@ const Navbar = () => {
         <Menu />
       </div>
       <div className='gpt3__navbar-sign'>
+        <a href="https://dashboard.aspectsystems.dev/admin"><button>Dashboard</button></a>
       </div>
       <div className='gpt3__navbar-menu'>
         {toggleMenu ? (
@@ -60,6 +62,7 @@ const Navbar = () => {
             <div className='gpt3__navbar-menu_container text-black'></div>
             <Menu />
             <div className='gpt3__navbar-menu_container-links-sign'>
+              <a href='https://dashboard.aspectsystems.dev/admin'><button type='button'>Dashboard</button></a>
             </div>
           </div>
         )}

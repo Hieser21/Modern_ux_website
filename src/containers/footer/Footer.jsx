@@ -24,11 +24,10 @@ const Footer = () => {
           <p>Aspect Systems, All Rights Reserved</p>
         </div>
         <div className='gpt3__footer-links_div'>
-          <h4>Links</h4>
-          <p>Overons</p>
-          <p>Social Media</p>
-          <p>Counters</p>
-          <p>Contact</p>
+          <h4>Resources</h4>
+          <p>Docs</p>
+          <p>Help Desk</p>
+          <p>Blog</p>
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Company</h4>
@@ -38,7 +37,7 @@ const Footer = () => {
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Get in touch</h4>
-         <a href='mailto:team@aspectsystems.xyz'><p>team@aspectsystems.xyz</p></a>
+         <a href='mailto:team@aspectsystems.dev'><p>team@aspectsystems.dev</p></a>
         </div>
       </div>
       <div className='gpt3__footer-copyright'>

@@ -1,9 +1,30 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './blog.css'
 const Pricing = () => {
+  const [screenSize, setScreenSize] = useState(getCurrentDimension());
+
+  	function getCurrentDimension(){
+    	return {
+      		width: window.innerWidth,
+      		height: window.innerHeight
+    	}
+  	}
+  
+  	useEffect(() => {
+    		const updateDimension = () => {
+      			setScreenSize(getCurrentDimension())
+    		}
+    		window.addEventListener('resize', updateDimension);
+    
+		
+    		return(() => {
+        		window.removeEventListener('resize', updateDimension);
+    		})
+  	}, [screenSize])
   return (
+    <div>
     <div id='pricing' className="carousel carousel-center rounded-box">
-      <div className='carousel-item'>
+      <div id='item1' className='carousel-item'>
       <div className="card w-96 bg-purple-900 text-white shadow-xl">
       <div className="card-body">
       <h2 className="card-title text-center">Instep Lite</h2>
@@ -13,7 +34,7 @@ const Pricing = () => {
       </div>
       </div>
     </div>
-    <div className='carousel-item'>
+    <div id='item2' className='carousel-item'>
       <div className="card w-96 text-white shadow-xl">
       <div className="card-body">
       <h2 className="card-title text-center">Instep Pro</h2>
@@ -32,6 +53,7 @@ const Pricing = () => {
       </div>
   </div>
   </div>
+</div>
 )
 }
 
