@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Company</h4>
-          <p>Terms & Conditions </p>
+          <p><a target='blank' className='hover:color-black' style={{textDecoration: 'none'}} href='https://docs.google.com/document/d/1sLf3qj8XlGMifZAk3LgbRL5JBCmVt8IfhgA-eqAogAo/edit?usp=sharing'>Terms & Conditions</a></p>
           <p>Privacy Policy</p>
           <p>Contact</p>
         </div>

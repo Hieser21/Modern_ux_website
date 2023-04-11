@@ -97,9 +97,6 @@
 .gpt3__footer-links_div a {
   text-decoration: none;
 }
-.gpt3__footer-links_div a:hover {
-  color: white;
-}
 .gpt3__footer-links_div h4 {
   font-family: cursive;
   font-size: 14px;
