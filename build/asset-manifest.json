@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebe76388.css",
-    "main.js": "/static/js/main.ba571f29.js",
+    "main.css": "/static/css/main.0b53696d.css",
+    "main.js": "/static/js/main.78eb3e18.js",
     "static/js/787.cfd77ee7.chunk.js": "/static/js/787.cfd77ee7.chunk.js",
     "static/media/uicons-regular-rounded-BG3GDTFR.eot": "/static/media/uicons-regular-rounded-BG3GDTFR.2a361185de096a6e3e99.eot",
     "static/media/uicons-bold-rounded-ZDARGU7R.eot": "/static/media/uicons-bold-rounded-ZDARGU7R.ac2c608bf183bb6b3390.eot",
@@ -25,14 +25,15 @@
     "static/media/webicon01thyan.png": "/static/media/webicon01thyan.9dd3ca01302026f64f82.png",
     "static/media/uicons-brands-VHW43T2X.woff": "/static/media/uicons-brands-VHW43T2X.6ba8d1c0fc6203880746.woff",
     "static/media/uicons-brands-QJAQFSP2.woff2": "/static/media/uicons-brands-QJAQFSP2.5f6b6a7ae0003bd6fe89.woff2",
+    "static/media/aspect.png": "/static/media/aspect.299f999147a8e22c5db8.png",
     "index.html": "/index.html",
     "static/media/asset.svg": "/static/media/asset.d5097699a464c296927ff80d8c8e91ee.svg",
-    "main.ebe76388.css.map": "/static/css/main.ebe76388.css.map",
-    "main.ba571f29.js.map": "/static/js/main.ba571f29.js.map",
+    "main.0b53696d.css.map": "/static/css/main.0b53696d.css.map",
+    "main.78eb3e18.js.map": "/static/js/main.78eb3e18.js.map",
     "787.cfd77ee7.chunk.js.map": "/static/js/787.cfd77ee7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebe76388.css",
-    "static/js/main.ba571f29.js"
+    "static/css/main.0b53696d.css",
+    "static/js/main.78eb3e18.js"
   ]
 }

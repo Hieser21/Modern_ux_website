@@ -7,22 +7,22 @@ import '../../../node_modules/@flaticon/flaticon-uicons/css/all/all.css'
 const Menu = () => (
   <>
     <p>
-      <a href='#home'><p><i className='fi fi-sr-home'></i>Home</p></a>
+      <a href='/#home'><p><i className='fi fi-sr-home'></i>Home</p></a>
     </p>
-    <p>
-      <a href='#about'><p><i className="fi fi-sr-users"></i>About us</p></a>
-    </p>
+    {/* <p>
+      <a href='/#about'><p><i className="fi fi-sr-users"></i>About us</p></a>
+    </p> */}
     <p>
     <p><i className="fi fi-sr-box"></i><div className="dropdown dropdown-hover">
   <label tabIndex={0} className="m-1">Services</label>
   <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-    <li><a href='#instep'>Instep</a></li>
-    <li><a href='#noxia'>Noxia</a></li>
+    <li><a href='/#instep'>Instep</a></li>
+    <li><a href='/#noxia'>Noxia</a></li>
   </ul>
 </div></p>
     </p>
     <p>
-      <a href="#pricing"><p><i className='fi fi-sr-credit-card'></i>Pricing</p></a>
+      <a href="/#pricing"><p><i className='fi fi-sr-credit-card'></i>Pricing</p></a>
     </p>
     
   </>

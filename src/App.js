@@ -19,7 +19,6 @@ function Home() {
       <div className='gradient__bg'>
         <Header />
       </div>
-      <About />
       <Possibility />
       <Pricing />
       <Footer />
