@@ -18,21 +18,20 @@ const Footer = () => {
           <img src={gpt3Logo} alt='logo' />
           <div className='divider divider-horizontal'></div>
           <a href='https://discord.gg/aspect-systems-930476025933070356'><i className='fi fi-brands-discord'></i></a>
-          <i className='fi fi-brands-youtube'></i>
-          <i className='fi fi-brands-twitter'></i>
+          <a href='https://www.youtube.com/channel/UCxv_bAlGuLKY_EHFtcz9yZQ'><i className='fi fi-brands-youtube'></i></a>
+          <a href='https://twitter.com/aspectsoffical'><i className='fi fi-brands-twitter'></i></a>
          <p>Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></p><br></br>
           <p>Aspect Systems, All Rights Reserved</p>
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Resources</h4>
-          <p>Docs</p>
-          <p>Help Desk</p>
-          <p>Blog</p>
+          <p><a href='https://support.aspectsystems.dev'>Help Desk</a></p>
+          <p><a href='https://blog.aspectsystems.dev'>Blog</a></p>
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Company</h4>
-          <p><a target='blank' className='hover:color-black' style={{textDecoration: 'none'}} href='https://docs.google.com/document/d/1sLf3qj8XlGMifZAk3LgbRL5JBCmVt8IfhgA-eqAogAo/edit?usp=sharing'>Terms & Conditions</a></p>
-          <p>Privacy Policy</p>
+          <p><a target='blank' className='hover:color-black' style={{textDecoration: 'none'}} href='/docs/terms-and-conditions'>Terms & Conditions</a></p>
+          <p><a target='blank' className='hover:color-black' style={{textDecoration: 'none'}} href='/docs/privacy-policy'>Privacy Policy</a></p>
           <p>Contact</p>
         </div>
         <div className='gpt3__footer-links_div'>
