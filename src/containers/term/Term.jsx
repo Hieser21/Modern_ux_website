@@ -67,7 +67,6 @@ const Terms = () => {
           <h4>Company</h4>
           <p><a target='blank' className='hover:color-black' style={{textDecoration: 'none'}} href='/docs/privacy-policy'>Terms & Conditions</a></p>
           <p><a target='blank' className='hover:color-black' style={{textDecoration: 'none'}} href="/docs/terms-and-conditions">Privacy Policy</a></p>
-          <p>Contact</p>
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Get in touch</h4>
