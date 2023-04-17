@@ -23,7 +23,7 @@ const InstepFeatures = () => {
   <p>Stops hackers from decompiling your game files</p>
   </div>
   <div className='grid place-content-center'>
-  <iframe src={trailer} height={338} width={600} alt='Aspect trailer' style={{borderRadius: 20}} />
+  <iframe thumb src={trailer} height={338} width={600} alt='Aspect trailer' style={{borderRadius: 20}} />
   </div>
       </div>
     </div>
