@@ -27,9 +27,10 @@ const Menu = () => (
     
   </>
 )
-
+var darkMode;
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
+
   return (
     <div className='gpt3__navbar'>
       <div className='gpt3__navbar-link'>
@@ -42,7 +43,7 @@ const Navbar = () => {
       </div>
       <div className='gpt3__navbar-sign'>
         <a href="https://dashboard.aspectsystems.dev/admin"><button>Dashboard</button></a>
-      </div>
+    </div>
       <div className='gpt3__navbar-menu'>
         {toggleMenu ? (
           <RiCloseLine
@@ -72,3 +73,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+export {darkMode}

@@ -3,30 +3,38 @@ import { Feature } from '../../components'
 import './features.css'
 import trailer from '../../assets/trailer.webm'
 const InstepFeatures = () => {
+  let activeTab;
+  function handleClick(str) {
+    if (str == 't1') {
+      return activeTab = 0
+    }
+      else if (str == 't2') {
+        return activeTab = 1
+      }
+      else {
+        return activeTab = 2
+      }
+    }
+  
   return (
     <div className='' id='instep'>
-      <div className='grid text-primary-content place-content-center' style={{fontSize: 48, textAlign: 'center'}}>
-        <h1 className='gradient__text'>
-        Instep is a powerful Roblox Anti-Exploit tool that helps protect your account from unwanted access and malicious activity. It features several key security features, including...
-        </h1>
-        <p></p>
-      </div>
-
-      <div className='gpt3__features-container grid grid-rows-3 grid-flow-row gap-4'>
-      <div className="text-3xl text-accent-content place-content-center text-center">
-        Anti Metamethod Hook
-        <p>Prevents hackers from tampering with your game data</p></div>
-  <div className="grid text-3xl text-accent-content place-content-center text-center">Anti Function Hook
-  <p>Blocks attempts to execute malicious code</p>
-  </div> 
-  <div className="grid text-3xl text-accent-content place-content-center text-center">Anti Dex
-  <p>Stops hackers from decompiling your game files</p>
+     <div className="tabs tabs-boxed">
+  <div className="tab" id="t1" onClick={handleClick("t1")}>Tab 1</div> 
+  <div className="tab tab-active" onClick={handleClick("t2")} id="t2">Tab 2</div> 
+  <div className="tab" id='t3' onClick={handleClick('t3')}>Tab 3</div>
+</div>
+<div className={activeTab == 0 ? "card": "card hidden"}>
+	Content 1
+</div>
+<div className={activeTab == 1 ? "card": "card hidden"}>
+	Content 2
+</div>
+<div className={activeTab == 2 ? "card": "card hidden"}>
+	Content 3
+</div>
+  <iframe src={trailer} height={338} width={600} alt='Aspect trailer' style={{borderRadius: 20}} />
   </div>
-  <div className='grid place-content-center'>
-  <iframe thumb src={trailer} height={338} width={600} alt='Aspect trailer' style={{borderRadius: 20}} />
-  </div>
-      </div>
-    </div>
+  
   )
 }
 

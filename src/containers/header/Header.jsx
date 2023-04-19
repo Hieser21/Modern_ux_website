@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import { darkMode } from '../../components/navbar/Navbar'
 import ai from '../../assets/webicon01thyan.png'
 const Header = () => {
   return (
